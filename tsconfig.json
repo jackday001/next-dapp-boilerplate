@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "app/layouts": ["./layouts"],
+      "app/layouts/*": ["./layouts/*"],
+      "app/state": ["./state"],
+      "app/state/*": ["./state/*"],
+    },
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "downlevelIteration": true,
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/ConnectWallet/index.tss"],
+  "exclude": ["node_modules"]
+}
